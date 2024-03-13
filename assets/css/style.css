@@ -2,6 +2,10 @@
   font-family: "POPPINS REGULAR";
   src: url(../font/Poppins-Regular.ttf) format(truetype);
 }
+@font-face {
+  font-family: "POPPINS BOLD";
+  src: url(../font/Poppins-Bold.ttf) format(truetype);
+}
 
 * {
 	margin: 0;
@@ -63,4 +67,58 @@ header{
 	max-width: 156px;
 	height: 47px;
 	text-align: center;
+}
+
+.form-div{
+	background-color: #C2C2C24F;
+	max-width: 395px;
+	height: 751px;
+	border-radius: 24px;
+	margin-top: 41px;
+}
+
+.form-div h3{
+	color: #000000;
+	font-size: 16px;
+	font-family: "POPPINS BOLD";
+}
+.location-h3{
+	padding-top: 32px;
+	margin-left: 32px;
+	margin-bottom: 16px;
+}
+
+#country{
+	width: 331px;
+	height: 48px;
+	background-color: #F8F8F8;
+	border: 1px solid #0D9CA436;
+	border-radius: 10px;
+	outline: none;
+	margin-left: 32px;
+	margin-bottom: 32px;
+	font-size: 14px;
+	color: #000000;
+	font-family: "POPPINS REGULAR";
+}
+.property-h3{
+	margin-left: 32px;
+	margin-bottom: 13px;
+}
+
+.price-h3{
+	margin-left: 32px;
+	margin-top: 39px;
+	margin-bottom: 13px;
+}
+
+input{
+	margin-left: 32px;
+	margin-bottom: 10px;
+}
+
+label{
+	font-size: 14px;
+	color: #000000;
+	font-family: "POPPINS REGULAR";
 }
