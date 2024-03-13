@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "POPPINS 1";
+  src: url(../font/Poppins-ExtraLightItalic.ttf) format(truetype);
+}
+
 * {
 	margin: 0;
 	padding: 0;
