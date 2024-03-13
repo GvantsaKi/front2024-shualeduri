@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "POPPINS 1";
-  src: url(../font/Poppins-ExtraLightItalic.ttf) format(truetype);
+  font-family: "POPPINS REGULAR";
+  src: url(../font/Poppins-Regular.ttf) format(truetype);
 }
 
 * {
@@ -16,4 +16,51 @@ a {
 }
 img {
 	max-width: 100%;
+}
+.container {
+	max-width: 1640px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+#logo{
+	max-width: 48px;
+}
+.flex-display{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    align-items: center;
+}
+header ul, header nav{
+	display: flex;
+	align-items: center;
+}
+
+header ul{
+	color: #000000E5;
+	font-size: 14px;
+}
+header li{
+	margin-left: 48px;
+	font-family: "POPPINS REGULAR";
+}
+header{
+	margin-top: 42px;
+}
+
+.nav-button{
+	background-color: #29B24E;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-family: "POPPINS REGULAR";
+	border: none;
+	border-radius: 12px;
+	padding-top: 26px;
+	padding-bottom: 26px;
+	padding-left: 13px;
+	padding-right: 13px;
+	max-width: 156px;
+	height: 47px;
+	text-align: center;
 }
