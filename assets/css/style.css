@@ -30,15 +30,10 @@ img {
 #logo{
 	max-width: 48px;
 }
-.flex-display{
+.flex-display, .nav-ul{
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
     align-items: center;
-}
-header ul, header nav{
-	display: flex;
-	align-items: center;
+    justify-content: space-between;
 }
 
 header ul{
@@ -48,6 +43,10 @@ header ul{
 header li{
 	margin-left: 48px;
 	font-family: "POPPINS REGULAR";
+}
+header ul a{
+	color: inherit;
+	text-decoration: none;
 }
 header{
 	margin-top: 42px;
@@ -111,6 +110,9 @@ header{
 	margin-left: 32px;
 	margin-top: 39px;
 	margin-bottom: 13px;
+}
+.section1-span{
+	color: gray;
 }
 
 input{
@@ -238,4 +240,189 @@ article p{
 	font-family: "POPPINS REGULAR";
 	margin-top: 24px;
 	margin-bottom: 24px;
+}
+
+.img-relative img{
+	position: relative;
+}
+
+.vip{
+	position: absolute;
+	background-color: #29B24E;
+	border-radius: 15px;
+	left: 100px;
+}
+
+
+
+
+/*about.html ----->*/
+.about-div1{
+	max-width: 810px;
+	width: 100%;
+	margin-top: 60px;
+	height: 732px;
+}
+.about-div1 img{
+	max-width: 100%;
+	width: 810px;
+	height: 732px;
+	border-radius: 20px;
+}
+.about-section1{
+	display: flex;
+}
+.vip2{
+	background-color: #29B24E;
+	border-radius: 15px;
+	max-width: 76px;
+	height: 28px;
+	color: white;
+	font-size: 12px;
+	font-family: "POPPINS REGULAR";
+	margin-left: 40px;
+}
+.about-div3{
+	display: flex;
+	align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.about-div3 p{
+	display: inline-block;
+	font-family: "POPPINS REGULAR";
+	margin-left: 40px;
+}
+.about-div3 img{
+	max-width: 100%;
+	width: 16px;
+}
+.about-div2{
+	max-width: 786px;
+	height: 732px;
+	margin-top: 60px;
+	margin-left: 44px;
+	background-color: #F8F8F8;
+	border-radius: 24px;
+}
+
+.about-div2 h2{
+	margin-top: 29px;
+	color: #000000;
+	font-size: 22px;
+	font-family: "POPPINS REGULAR";
+	margin-left: 40px;
+}
+.about-div2 p{
+	margin-top: 12px;
+	margin-left: 40px;
+	font-family: "POPPINS REGULAR";
+	font-size: 14px;
+	color: #000000;
+	opacity: 60%;
+}
+
+.about-p{
+	margin-top: 32px;
+	opacity: 80%;
+}
+
+.about-div4{
+	display: flex;
+	align-items: center;
+	margin-top: 40px;
+	border-top: 1px solid #ECECEC;
+	border-bottom: 1px solid #ECECEC;
+}
+.about-div4 h4{
+	margin-left: 40px;
+	color: #000000;
+	font-size: 14px;
+	opacity: 80%;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+.about-div2 h5{
+	font-size: 12px;
+	font-family: "POPPINS REGULAR";
+	opacity: 60%;
+	color: #000000;
+}
+.about-div2 li{
+	font-size: 14px;
+	font-family: "POPPINS BOLD";
+	opacity: 80%;
+	color: #000000;
+}
+
+.all-div{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 24px;
+	border-bottom: 1px solid #ECECEC;
+	padding-bottom: 24px;
+}
+
+.about-div5{
+	margin-left: 40px;
+}
+
+.about-p1{
+	font-size: 36px;
+	color: #29B24E;
+	font-family: "POPPINS REGULAR";
+}
+.about-p2{
+	font-size: 16px;
+	color: #000000;
+	font-family: "POPPINS REGULAR";
+}
+
+.about-div8{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 27px;
+}
+.about-button1{
+	background-color: white;
+	color: #29B24E;
+	font-size: 14px;
+	font-family: "POPPINS REGULAR";
+	border: 1px solid #29B24E;
+	border-radius: 12px;
+	padding-top: 26px;
+	padding-bottom: 26px;
+	padding-left: 13px;
+	padding-right: 13px;
+	max-width: 153px;
+	height: 47px;
+	text-align: center;
+}
+
+.about-button2{
+	background-color: #29B24E;
+	color: white;
+	font-size: 14px;
+	font-family: "POPPINS REGULAR";
+	border: none;
+	gap: 10px;
+	border-radius: 12px;
+	padding-top: 26px;
+	padding-bottom: 26px;
+	padding-left: 13px;
+	padding-right: 13px;
+	max-width: 80px;
+	height: 47px;
+	text-align: center;
+}
+
+.about-section2 h3{
+	font-size: 18px;
+	color: #000000;
+	font-family: "POPPINS REGULAR";
+	margin-bottom: 24px;
+	margin-top: 72px;
 }
