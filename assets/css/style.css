@@ -70,7 +70,7 @@ header{
 }
 
 .form-div{
-	background-color: #C2C2C24F;
+	background-color: #F8F8F8;
 	max-width: 395px;
 	height: 751px;
 	border-radius: 24px;
@@ -97,6 +97,7 @@ header{
 	outline: none;
 	margin-left: 32px;
 	margin-bottom: 32px;
+	margin-right: 32px;
 	font-size: 14px;
 	color: #000000;
 	font-family: "POPPINS REGULAR";
@@ -115,10 +116,126 @@ header{
 input{
 	margin-left: 32px;
 	margin-bottom: 10px;
+	accent-color: #29B24E;
 }
 
 label{
 	font-size: 14px;
 	color: #000000;
 	font-family: "POPPINS REGULAR";
+}
+.section-1{
+	display: flex;
+	flex-wrap: wrap;
+}
+.picture-div{
+	max-width: 1225px;
+	margin-left: 20px;
+	height: 751px;
+	position: relative;
+	margin-top: 42px;
+}
+.div-absolute{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    margin-left: 238px;
+}
+.picture-div img{
+	border-radius: 24px;
+	max-width: 1225;
+	height: 751px;
+}
+.div-absolute h1{
+	margin-top: 60px;
+	font-size: 48px;
+	color: #000000CC;
+	font-family: "POPPINS REGULAR";
+}
+.div-absolute p{
+	font-size: 16px;
+	color: #000000CC;
+	font-family: "POPPINS REGULAR";
+	margin-top: 10px;
+
+}
+.div-absolute input{
+	border-radius: 10px;
+	background-color: #F8F8F8CC;
+	color: #000000;
+	font-family: "POPPINS REGULAR";
+	font-size: 14px;
+	width: 324px;
+	height: 48px;
+	outline: none;
+	border: none;
+	margin-top: 40px;
+	text-align: center;
+}
+.section-2 h3{
+	font-size: 18px;
+	color: #000000;
+	font-family: "POPPINS REGULAR";
+	margin-top: 32px;
+	margin-bottom: 20px;
+}
+article{
+	max-width: 395px;
+	background-color: #F8F8F8;
+	border-radius: 24px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+article img{
+	width: 363px;
+	max-width: 100%;
+	border-radius: 20px;
+	margin-left: 16px;
+	margin-top: 16px;
+	margin-right: 16px;
+	margin-bottom: 16px;
+}
+article h4{
+	font-size: 16px;
+	color: #000000;
+	margin-left: 20px;
+	margin-bottom: 8px;
+}
+article p{
+	margin-left: 20px;
+	color: #000000;
+	font-size: 14px;
+	font-family: "POPPINS REGULAR";
+}
+.article-p2{
+	display: inline-block;
+	font-size: 12px;
+	color: #000000;
+	font-family: "POPPINS BOLD";
+}
+.article-p1{
+	display: inline-block;
+	font-size: 24px;
+	color: #29B24E;
+	font-family: "POPPINS REGULAR";
+}
+.paragraph-div{
+	display: flex;
+	justify-content: flex-end;
+    align-items: center;
+}
+
+.div2{
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid #CFEAD6;
+	margin-top: 16px;
+}
+.div2 h4{
+	font-size: 14px;
+	color: #000000;
+	font-family: "POPPINS REGULAR";
+	margin-top: 24px;
+	margin-bottom: 24px;
 }
