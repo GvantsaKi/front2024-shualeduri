@@ -30,6 +30,9 @@ img {
 #logo{
 	max-width: 48px;
 }
+body{
+	background-color: #F2F2F2;
+}
 .flex-display, .nav-ul{
 	display: flex;
     align-items: center;
@@ -63,9 +66,7 @@ header{
 	padding-bottom: 26px;
 	padding-left: 13px;
 	padding-right: 13px;
-	max-width: 156px;
-	height: 47px;
-	text-align: center;
+	width: 156px;
 }
 
 .form-div{
@@ -132,8 +133,8 @@ label{
 }
 .picture-div{
 	max-width: 1225px;
+	width: 100%;
 	margin-left: 20px;
-	height: 751px;
 	position: relative;
 	margin-top: 42px;
 }
@@ -242,7 +243,7 @@ article p{
 	margin-bottom: 24px;
 }
 
-.img-relative img{
+.img-relative, article{
 	position: relative;
 }
 
@@ -250,7 +251,12 @@ article p{
 	position: absolute;
 	background-color: #29B24E;
 	border-radius: 15px;
-	left: 100px;
+	left: 20px;
+	top: 20px;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-family: "POPPINS REGULAR";
+	padding: 5px;
 }
 
 
@@ -275,8 +281,8 @@ article p{
 .vip2{
 	background-color: #29B24E;
 	border-radius: 15px;
-	max-width: 76px;
-	height: 28px;
+	width: 76px;
+	padding: 5px;
 	color: white;
 	font-size: 12px;
 	font-family: "POPPINS REGULAR";
@@ -284,16 +290,16 @@ article p{
 }
 .about-div3{
 	display: flex;
-	align-items: center;
+	align-items: baseline;
     justify-content: space-between;
     margin-top: 30px;
 }
 
-.about-div3 p{
+/*.about-div3 p{
 	display: inline-block;
 	font-family: "POPPINS REGULAR";
 	margin-left: 40px;
-}
+}*/
 .about-div3 img{
 	max-width: 100%;
 	width: 16px;
@@ -314,7 +320,7 @@ article p{
 	font-family: "POPPINS REGULAR";
 	margin-left: 40px;
 }
-.about-div2 p{
+.p1{
 	margin-top: 12px;
 	margin-left: 40px;
 	font-family: "POPPINS REGULAR";
@@ -322,12 +328,32 @@ article p{
 	color: #000000;
 	opacity: 60%;
 }
+.p3{
+	margin-top: 12px;
+	margin-left: 40px;
+	font-family: "POPPINS REGULAR";
+	font-size: 12px;
+	color: #000000;
+	opacity: 60%;
 
+}
 .about-p{
 	margin-top: 32px;
 	opacity: 80%;
+	margin-left: 40px;
+	font-family: "POPPINS REGULAR";
+	font-size: 14px;
+	color: #000000;
 }
+.view-p{
+	font-family: "POPPINS REGULAR";
+	font-size: 12px;
+	color: #000000;
+	opacity: 60%;
+	display: inline-block;
+	margin-left: 8px;
 
+}
 .about-div4{
 	display: flex;
 	align-items: center;
@@ -373,11 +399,13 @@ article p{
 	font-size: 36px;
 	color: #29B24E;
 	font-family: "POPPINS REGULAR";
+	display: inline-block;
 }
 .about-p2{
 	font-size: 16px;
 	color: #000000;
 	font-family: "POPPINS REGULAR";
+	display: inline-block;
 }
 
 .about-div8{
@@ -397,9 +425,8 @@ article p{
 	padding-bottom: 26px;
 	padding-left: 13px;
 	padding-right: 13px;
-	max-width: 153px;
-	height: 47px;
-	text-align: center;
+	width: 153px;
+	margin-right: 16px;
 }
 
 .about-button2{
@@ -414,8 +441,7 @@ article p{
 	padding-bottom: 26px;
 	padding-left: 13px;
 	padding-right: 13px;
-	max-width: 80px;
-	height: 47px;
+	width: 80px;
 	text-align: center;
 }
 
@@ -492,15 +518,25 @@ footer p{
     .picture-div img{
     	max-width: 100%;
     	width: 335px;
+    	object-fit: scale-down;
     }
 
     .div-absolute{
 	    position: absolute;
 	    display: flex;
 	    flex-direction: column;
-        align-items: center;
+        align-content: center;
+        max-width: 294px;
     }
-
+    .div-absolute h1{
+    	font-size: 24px;
+    }
+    .div-absolute p{
+    	font-size: 14px;
+    }
+    .div-absolute input{
+    	display: none;
+    }
     .form-div{
 
 	    max-width: 100%;
@@ -508,7 +544,7 @@ footer p{
 	    height: 739px;
 	    border-radius: 24px;
 	    margin-top: 70px;
-} 
+    } 
      article{
 	    max-width: 335px;
 	    height: 424px;
