@@ -572,9 +572,13 @@ footer p{
 	    border-radius: 24px;
 	    margin-top: 70px;
     } 
-     article{
+    article{
 	    max-width: 335px;
 	    height: 424px;
+	    margin-left: 40px;
+    }
+    .section-2 h3{
+    	margin-left: 40px;
     }
     article img{
     	max-width: 100%;
@@ -585,6 +589,7 @@ footer p{
     	width: 375px;
     	height: 326px;
     	margin-left: 20px;
+    	margin-bottom: 100px;
     }
     .mail-link{
     	display: none;
@@ -594,30 +599,28 @@ footer p{
     }
 
     .mobile-div{
-    	max-width: 768px;
-    	height: 72px;
+    	width: 768px;
+    	width: 100%;
     	background-color: #FFFFFF;
-    	margin-top: 84px;
+    	position: fixed;
+    	bottom: 0;
+    	border-top-left-radius: 40px;
+    	border-top-right-radius: 40px;
     }
-
-    .mobile-nav li{
-    	display: inline-block;
-    }
-    .mobile-div2{
+    .mobile-div1{
     	display: flex;
-    	justify-content: space-evenly;
-        align-items: center;
+    	align-items: center;
+        justify-content: space-around;
     }
-    .mobile-div3{
-    	display: flex;
-    	justify-content: space-between;
+    .mobile-div img{
+    	margin-left: 10px;
     }
-    .mobile-div3 li{
-    	margin-left: 30px;
+    .mobile-div li{
     	font-size: 11px;
     	color: black;
     	opacity: 80%;
-    	font-family: "POPPINS REGULAR";
+    	font-family: "POPPINS BOLD";
+    	margin-top: 12px;
     }
     .mobile-div a{
     	text-decoration: none;
@@ -635,6 +638,9 @@ footer p{
 	    max-width: 56px;
 	    height: 56px;
     }
+    .mobile-button-ul{
+    	margin-left: 10px;
+    }
 /*    about html */
     .about-div1 img{
 		max-width: 100%;
@@ -643,13 +649,15 @@ footer p{
 	}
 	.about-div1{
 		max-width: 100%;
-		width: 335px;
+		width: 768px;
 		height: 316px;
+		margin-left: 25px;	
 	}
 	.about-div2{
 		max-width: 100%;
 		width: 375px;
-		margin-left: auto;
+		margin-left: 18px;
+		height: 960px;
 	}
 	.vip2{
 		margin-left: 20px;
@@ -693,7 +701,7 @@ footer p{
 		margin-left: 10px;
 		width: 334px;
 		max-width: 100%;
-/*		height: 47px;*/
+		margin-top: 50px;
 	}
 	.about-button2{
 		margin-left: 10px;
@@ -704,8 +712,129 @@ footer p{
 }
 
 
-@media (min-width:768px){
+@media (min-width:1024px){
 	.mobile-div{
 		display: none;
 	}
+}
+
+
+@media (max-width:1024px){
+	.mobile-div{
+    	width: 768px;
+    	width: 100%;
+    	background-color: #FFFFFF;
+    	margin-top: 84px;
+    	position: fixed;
+    	bottom: 0;
+    }
+    .mobile-div1{
+    	display: flex;
+    	align-items: center;
+        justify-content: space-around;
+    }
+    .mobile-div img{
+    	margin-left: 10px;
+    }
+    .mobile-div li{
+    	font-size: 11px;
+    	color: black;
+    	opacity: 80%;
+    	font-family: "POPPINS BOLD";
+    	margin-top: 12px;
+    }
+    .mobile-div a{
+    	text-decoration: none;
+    	color: inherit;
+
+    }
+    .mobile-button{
+	    background-color: #29B24E;
+	    color: white;
+	    padding: 16px;
+	    font-size: 14px;
+	    font-family: "POPPINS REGULAR";
+	    border: none;
+	    border-radius: 12px;
+	    max-width: 56px;
+	    height: 56px;
+    }
+    .mobile-button-ul{
+    	margin-left: 10px;
+    }
+
+    .section-1{
+    	display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .picture-div{
+	    max-width: 335px;
+	    margin-left: 20px;
+	    height: 435px;
+	    position: relative;
+	    margin-top: 28px;
+    } 
+
+    .picture-div-img{
+    	max-width: 100%;
+    	height: 100%;
+    	width: 335px;
+    }
+
+    .div-absolute{
+	    position: absolute;
+	    display: flex;
+	    flex-direction: column;
+        align-content: center;
+        max-width: 294px;
+        left: 47px;
+        top: 32px;
+    }
+    .div-absolute h1{
+    	font-size: 24px;
+    }
+    .div-absolute p{
+    	font-size: 14px;
+    }
+    .div-absolute input{
+    	display: none;
+    }
+    .form-div{
+
+	    max-width: 100%;
+	    width: 375px;
+	    height: 739px;
+	    border-radius: 24px;
+	    margin-top: 70px;
+    } 
+    article{
+	    max-width: 335px;
+	    height: 424px;
+    }
+    article img{
+    	max-width: 100%;
+    	width: 303px;
+    }
+    footer{
+    	max-width: 100%;
+    	width: 768px;
+    	height: 326px;
+    	margin-left: 20px;
+    	margin-bottom: 100px;
+    }
+    .about-div2{
+    	margin-left: 0;
+    }
+    .mail-link{
+    	display: none;
+    }
+    .footer-ul{
+    	margin-left: 50px;
+    }
+
+
+
 }
